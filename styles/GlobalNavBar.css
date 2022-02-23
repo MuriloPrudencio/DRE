@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.navbar .logo a{
+    color: #7FFFD4;
+    font-size: 35px;
+    font-weight: 500;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    background-color: #333;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-flex;
+}
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.navbar .menu  a:hover{
+    color: #7FFFD4;
+}
+
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-btn:hover{
+    color: #7FFFD4;
+}
+
+@media (max-width: 947px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .navbar .menu{
+        background-color: #333;
+        position: fixed;
+        height: 80vh;
+        width: 70%;
+        right: -100%;
+        top: 3em;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        right: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 13px 0;
+        font-size: 17px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+}
+
+.main_container {
+    min-height: 100vh;
+    padding: 6em 2em;
+}
