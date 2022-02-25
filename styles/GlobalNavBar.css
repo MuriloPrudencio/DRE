@@ -15,14 +15,10 @@ body {
 .max-width{
     max-width: 1300px;
     padding: 0 10px;
+    height: 40px;    
     margin: auto;
 }
 
-.navbar .logo a{
-    color: #7FFFD4;
-    font-size: 35px;
-    font-weight: 500;
-}
 .navbar{
     position: fixed;
     width: 100%;
@@ -30,15 +26,18 @@ body {
     padding: 20px 0;
     background-color: #333;
 }
+
 .navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .menu li{
     list-style: none;
     display: inline-flex;
 }
+
 .navbar .menu li a{
     display: block;
     color: #fff;
@@ -67,6 +66,7 @@ body {
         display: block;
         z-index: 999;
     }
+
     .navbar .menu{
         background-color: #333;
         position: fixed;
@@ -78,17 +78,21 @@ body {
         padding-top: 80px;
         transition: all 0.3s ease;
     }
+
     .navbar .menu.active{
         right: 0;
     }
+
     .navbar .menu li{
         display: block;
     }
+
     .navbar .menu li a{
         display: inline-block;
         margin: 13px 0;
         font-size: 17px;
     }
+
     .max-width{
         max-width: 930px;
     }

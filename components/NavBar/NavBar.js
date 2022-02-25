@@ -1,4 +1,10 @@
-import Link from "next/link";
+import { library} from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+library.add(fas);
+
+import Image from "next/image"
+
 
 
 const linkStyle = {
@@ -11,7 +17,12 @@ export default function NavBar () {
             <nav className="navbar">
                 <div className="max-width">
                     <div className="logo">
-                        <a href="/">My DRE</a>
+                    <Image
+                        src="/img/DRE.png"
+                        width="80"
+                        height="80"
+                        alt="DRE"
+                    />
                     </div>
                     <ul className="menu">
                         <li><a href="/" className="menu-btn">Home</a></li>
@@ -19,7 +30,7 @@ export default function NavBar () {
                         <li><a href="/contato" className="menu-btn">Contato</a></li>
                     </ul>
                     <div className="menu-btn">
-                        Menu
+                       <FontAwesomeIcon icon="fa-solid fa-bars" />
                     </div>
                 </div>
             </nav>
