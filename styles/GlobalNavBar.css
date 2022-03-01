@@ -52,7 +52,7 @@ body {
 
 .menu-btn{
     color: #fff;
-    font-size: 23px;
+    font-size: 30px;
     cursor: pointer;
     display: none;
 }
@@ -76,7 +76,7 @@ body {
         top: 3em;
         text-align: center;
         padding-top: 80px;
-        transition: all 0.3s ease;
+        transition: all 0.5s ease;
     }
 
     .navbar .menu.active{
