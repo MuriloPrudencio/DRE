@@ -20,6 +20,7 @@ export default function Sobre() {
             <p>
                 Para tomar decisões a curto prazo, é bom fazer acompanhamento mensal da DRE de sua empresa.
             </p>
+            <img src="/img/estrutura.png"/>
         </div>
         </>
     )
