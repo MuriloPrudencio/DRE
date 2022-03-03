@@ -1,0 +1,26 @@
+.entenda_container {
+  padding-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.entenda_container h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 1.5em;
+}
+
+.entenda_container p {
+  width: 800px;
+  line-height: 1.7em;
+  text-indent: 1em;
+}
+
+.entenda_container span {
+  font-weight: bold;
+  color: #62ceaa;
+}
