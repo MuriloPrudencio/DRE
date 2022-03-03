@@ -26,9 +26,9 @@
 }
 
 .entenda_container img {
-  width: 60%;
+  width: 70%;
   border-radius: 80%;
-  padding: 5em 0em;
+  margin-top: 5em;
 }
 
 @media (max-width: 758px) {
