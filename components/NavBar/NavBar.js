@@ -28,7 +28,7 @@ export default function NavBar () {
                         <li><a href="/" className="menu-btn">Home</a></li>
                         <li><a href="/sobre_dre" className="menu-btn">Entenda a DRE</a></li>
                         <li><a href="/estrutura" className="menu-btn">Estrutura da DRE</a></li>
-                        <li><a href="/analise" className="menu-btn">Análisando a DRE</a></li>
+                        <li><a href="/analise" className="menu-btn">Modelos de análise</a></li>
                         <li><a href="/dre" className="menu-btn">Crie a sua DRE</a></li>
                     </ul>
                     <div className="menu-btn">

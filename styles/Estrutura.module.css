@@ -1,0 +1,57 @@
+.estrutura_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em 3em;
+}
+
+.estrutura_title h1{
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.estrutura_imagem img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.estrutura_content {
+  max-width: 600px;
+  position: relative;
+  margin: 0 auto;
+  flex-direction: column;
+  padding-top: 5em;
+  line-height: 2.5em;
+}
+
+.estrutura_content p {
+  color: #333;
+  font-weight: 400;
+}
+
+.estrutura_content span {
+  font-weight: bold;
+  color: #62ceaa;
+}
+
+@media (max-width: 758px)  {
+  .estrutura_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .estrutura_title h1 {
+    font-size: 1.8em;
+  }
+
+  .estrutura_imagem img {
+    display: none;
+  }
+
+  .estrutura_content {
+    padding-top: 1.5em;
+  }
+}
