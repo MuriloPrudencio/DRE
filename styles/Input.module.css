@@ -1,0 +1,25 @@
+.form_control {
+  padding: .6em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px;
+  gap: 1em;
+}
+
+.form_control label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form_control input {
+  padding: .7em;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+}
+
+.form_control input::placeholder {
+  color: #333;
+  font-weight: bold;
+}
